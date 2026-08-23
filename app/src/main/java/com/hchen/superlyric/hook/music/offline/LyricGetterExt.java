@@ -31,7 +31,7 @@ import io.github.libxposed.api.XposedModuleInterface;
  * @author lobivan11
  */
 @HookThis(targetPackage = "statusbar.finder")
-public final class Kde extends AbsPublisher {
+public final class LyricGetterExt extends AbsPublisher {
     @Override
     protected void onPackageReady(@NonNull XposedModuleInterface.PackageReadyParam param) {
         super.onPackageReady(param);
